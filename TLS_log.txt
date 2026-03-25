@@ -1,0 +1,18 @@
+INFO:root:Connection from ('127.0.0.1', 52045)
+INFO:root:TLS version: TLSv1.3
+INFO:root:Cipher suite: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+INFO:root:Connection from ('127.0.0.1', 52048)
+INFO:root:TLS version: TLSv1.3
+INFO:root:Cipher suite: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+INFO:root:Connection from ('127.0.0.1', 52051)
+INFO:root:TLS version: TLSv1.3
+INFO:root:Cipher suite: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+INFO:root:Connection from ('127.0.0.1', 52096)
+INFO:root:TLS version: TLSv1.3
+INFO:root:Cipher suite: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+INFO:root:Connection from ('127.0.0.1', 52101)
+INFO:root:TLS version: TLSv1.3
+INFO:root:Cipher suite: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+INFO:root:Connection from ('127.0.0.1', 52104)
+INFO:root:TLS version: TLSv1.3
+INFO:root:Cipher suite: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
