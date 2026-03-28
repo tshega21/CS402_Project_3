@@ -16,3 +16,27 @@ INFO:root:Cipher suite: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
 INFO:root:Connection from ('127.0.0.1', 52104)
 INFO:root:TLS version: TLSv1.3
 INFO:root:Cipher suite: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+INFO:root:Connection from ('127.0.0.1', 39594)
+INFO:root:TLS version: TLSv1.3
+INFO:root:Cipher suite: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+INFO:root:Connection from ('127.0.0.1', 55198)
+INFO:root:TLS version: TLSv1.3
+INFO:root:Cipher suite: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+INFO:root:Connection from ('127.0.0.1', 39452)
+INFO:root:TLS version: TLSv1.3
+INFO:root:Cipher suite: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+INFO:root:Connection from ('127.0.0.1', 52856)
+INFO:root:TLS version: TLSv1.3
+INFO:root:Cipher suite: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+INFO:root:Connection from ('127.0.0.1', 57444)
+INFO:root:TLS version: TLSv1.3
+INFO:root:Cipher suite: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+INFO:root:Connection from ('127.0.0.1', 44114)
+INFO:root:TLS version: TLSv1.3
+INFO:root:Cipher suite: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)
+2026-03-28 11:10:09,834- Connection from ('127.0.0.1', 33070))
+2026-03-28 11:10:09,834- TLS version: TLSv1.3)
+2026-03-28 11:10:09,834- Cipher suite: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256))
+2026-03-28 11:10:47,149- Connection from ('127.0.0.1', 59410)
+2026-03-28 11:10:47,149- TLS version: TLSv1.3
+2026-03-28 11:10:47,149- Cipher suite: ('TLS_AES_256_GCM_SHA384', 'TLSv1.3', 256)

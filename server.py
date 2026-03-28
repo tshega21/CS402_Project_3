@@ -12,7 +12,8 @@ import logging
 
 HOST = "127.0.0.1"
 PORT = 8443
-logging.basicConfig(filename="TLS_log.txt", level=logging.INFO)
+logging.basicConfig(filename="TLS_log.txt",
+                    level=logging.INFO,format = "%(asctime)s- %(message)s")
 
 # Initialize TLS Server context object
 context = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
