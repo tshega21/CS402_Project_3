@@ -1,7 +1,10 @@
 """
-server.py
-Authors:
-Description: 
+This program implements a TLS server that presents certificate to the client 
+and logs TLS version and cipher suite used in each connection
+
+Authors: Long Pham, Tanvi Shegaonkar, Lam Do
+Date: March 28, 2026
+CS402, Spring 2026
 """
 
 import socket
@@ -12,12 +15,17 @@ import logging
 
 HOST = "127.0.0.1"
 PORT = 8443
-logging.basicConfig(filename="TLS_log.txt",
-                    level=logging.INFO,format = "%(asctime)s- %(message)s")
 
-# Initialize TLS Server context object
+# Configure logging 
+logging.basicConfig(
+    filename="TLS_log.txt",
+    level=logging.INFO,
+    format = "%(asctime)s- %(message)s"
+)
+
+# Initialize TLS server context
 context = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
-# Load certificate and private key to TLS Server Context object
+# Load certificate and private key to TLS server context
 context.load_cert_chain(certfile="server.crt", keyfile="server.key")
 
 # Bind TCP Socket

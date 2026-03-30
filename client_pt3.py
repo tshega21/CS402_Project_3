@@ -1,7 +1,10 @@
 """
-client.py
-Authors: 
-Description:
+This program is an extension of client_pt1.py 
+where client now presents ceritificate to the server and enforces minimum TLS version of 1.3
+
+Authors: Long Pham, Tanvi Shegaonkar, Lam Do
+Date: March 28, 2026
+CS402, Spring 2026
 """
 
 import socket
@@ -11,9 +14,9 @@ import json
 HOST = "localhost"
 PORT = 8443
 
-# InitializeT TLS Client context object
+# Initialize TLS client context
 context = ssl.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
-# Load certificate and private key to TLS Client context object
+# Load certificate and private key to TLS client context
 context.load_cert_chain(certfile="client.crt", keyfile="client.key")
 
 # Enforce minimum TLS version of 1.3
